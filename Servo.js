@@ -1,6 +1,6 @@
 
-var AIO_pin = 0;//setup access analog input Analog pin #0 (A0) i.e. output of potentiometer. Assuming values read is between 0 and 1000.
-var Servo_pin = 5;//Initialize PWM on Digital Pin #5 (D5) and enable the pwm pin
+var AIO_pin = 0;//Analog input Analog pin #0 (A0) i.e. output of potentiometer. Assuming values read is between 0 and 1000.
+var Servo_pin = 5;//Initialize PWM on Digital Pin #5 (D5)
 var PWM_period_us = 20000;
 var Min_Duty_Cycle = 0.029;
 var Max_Duty_Cycle = 0.087;
